@@ -28,9 +28,9 @@ class Person : IPerson
 		{
 			_address = value;
 			AddressChanged?.Invoke(this, EventArgs.Empty); //If AddressChanged of a created Person object is subscribed to
-														   //Person_AddressChanged, invoke the event handler for this object
-														   //with no EventArgs (could replace this with the new address, though
-														   //if that was to be printed in the error message
+								       //Person_AddressChanged, invoke the event handler for this object
+								       //with no EventArgs (could replace this with the new address, though
+								       //if that was to be printed in the error message
         	}
 	}
 
