@@ -13,10 +13,10 @@ interface IPerson
 
 class Person : IPerson
 {
-    private string[] _phoneNumbers = new string[3];
+        private string[] _phoneNumbers = new string[3];
 	private string _address;
 
-    public string Name { get; set; }
+        public string Name { get; set; }
 	public int Age { get; set; }
 	public string Address
 	{
@@ -31,7 +31,7 @@ class Person : IPerson
 														   //Person_AddressChanged, invoke the event handler for this object
 														   //with no EventArgs (could replace this with the new address, though
 														   //if that was to be printed in the error message
-        }
+        	}
 	}
 
 
